@@ -73,10 +73,10 @@ exportButton.onClick = function() {
             return false;
             }
         
-        main(app.project.activeItem.selectedLayers[0], nameEditText.text);
+        main(app.project.activeItem.selectedLayers[0], nameEditText.text, locationEditText.text);
     }
 
-function main(layer, presetName) {
+function main(layer, presetName, location) {
     
 var thisShape;
 
@@ -271,11 +271,11 @@ expansionKeyedTimesString+=']';
 
 var totalString = startString + nameString + durationString + numMasksString + maskColoursString + maskModesString + pathStaticVerticesString + pathStaticInTangentsString + pathStaticOutTangentsString + featherStaticValuesString + opacityStaticValuesString + expansionStaticValuesString + numPathKeysString + numFeatherKeysString + numOpacityKeysString + numExpansionKeysString + pathVerticesKeyedValuesString + pathVerticesKeyedTimesString + pathInTangentsKeyedValuesString + pathInTangentsKeyedTimesString + pathOutTangentsKeyedValuesString + pathOutTangentsKeyedTimesString + featherKeyedValuesString + featherKeyedTimesString + opacityKeyedValuesString + opacityKeyedTimesString + expansionKeyedValuesString + expansionKeyedTimesString + endString;
 
-var file = File("~/Desktop/maskExport.txt");
+var file = File(location+"/"+presetName+".meo");
 file.open("w");
 file.write(totalString);
 file.close();
-file.execute();
+//file.execute();
 }
 
 function getTheseVerticesValues(property) {

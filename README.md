@@ -10,3 +10,7 @@
 ## Use Case
 <img src="https://i.imgur.com/7djXIlB.png" />
 The primary use for this script is to take auto-traced elements of any complexity, and export them to a format we can later use an importer to recreate! 
+
+## Output Format
+<img src="https://i.imgur.com/DKT4iG0.png" />
+The format of the output file is essentially just a JSON object, under a custom file extension (.meo), or Mask Export Object. Files are generally a few MB depending on the number of keyframes
