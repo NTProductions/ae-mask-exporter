@@ -271,7 +271,7 @@ expansionKeyedTimesString+=']';
 
 var totalString = startString + nameString + durationString + numMasksString + maskColoursString + maskModesString + pathStaticVerticesString + pathStaticInTangentsString + pathStaticOutTangentsString + featherStaticValuesString + opacityStaticValuesString + expansionStaticValuesString + numPathKeysString + numFeatherKeysString + numOpacityKeysString + numExpansionKeysString + pathVerticesKeyedValuesString + pathVerticesKeyedTimesString + pathInTangentsKeyedValuesString + pathInTangentsKeyedTimesString + pathOutTangentsKeyedValuesString + pathOutTangentsKeyedTimesString + featherKeyedValuesString + featherKeyedTimesString + opacityKeyedValuesString + opacityKeyedTimesString + expansionKeyedValuesString + expansionKeyedTimesString + endString;
 
-var file = File(location+"/"+presetName+".meo");
+var file = File(location+"/"+presetName+".jsx");
 file.open("w");
 file.write(totalString);
 file.close();

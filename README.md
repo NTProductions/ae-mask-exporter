@@ -13,4 +13,8 @@ The primary use for this script is to take auto-traced elements of any complexit
 
 ## Output Format
 <img src="https://i.imgur.com/DKT4iG0.png" />
-The format of the output file is essentially just a JSON object, under a custom file extension (.meo), or Mask Export Object. Files are generally a few MB depending on the number of keyframes
+The format of the output file is essentially just a JS object, under a .jsx extension. Files are generally a few MB depending on the number of keyframes
+
+## TODO
+-Export script needs to inject self creation code at the end of 'shape' object<br>
+-Link to import script that reads files
