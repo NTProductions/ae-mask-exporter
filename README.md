@@ -3,9 +3,9 @@
 
 ## Script Interface
 <img src="https://i.imgur.com/FH8fCN3.png" />
--Input Preset File Name
--Location Selection (will remember)
--Export file to desired location
+-Input Preset File Name<br>
+-Location Selection (will remember)<br>
+-Export file to desired location<br>
 
 ## Use Case
 <img src="https://i.imgur.com/7djXIlB.png" />
