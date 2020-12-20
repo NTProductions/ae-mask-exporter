@@ -15,6 +15,5 @@ The primary use for this script is to take auto-traced elements of any complexit
 <img src="https://i.imgur.com/DKT4iG0.png" />
 The format of the output file is essentially just a JS object, under a .jsx extension. Files are generally a few MB depending on the number of keyframes
 
-## TODO
--Export script needs to inject self creation code at the end of 'shape' object<br>
--Link to import script that reads files
+## Import Script
+You have the choice to use <a href="https://github.com/NTProductions/ae-mask-importer">this script</a> to select a folder full of these .jsx files, or just run the saved file as a script to generate
