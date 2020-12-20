@@ -17,3 +17,6 @@ The format of the output file is essentially just a JS object, under a .jsx exte
 
 ## Import Script
 You have the choice to use <a href="https://github.com/NTProductions/ae-mask-importer">this script</a> to select a folder full of these .jsx files, or just run the saved file as a script to generate
+
+## ToDo
+Support for selecting multiple files
